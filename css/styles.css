@@ -383,8 +383,8 @@ button {
 
 .customers-link-tag:hover,
 .customers-link-tag:focus {
-  fill: var(--hover-color);
-  border: 1px solid var(--hover-color);
+  fill: #404BBF;
+  border: 1px solid #404BBF;
 }
 
 /*---------FOOTER--------*/
@@ -418,7 +418,6 @@ button {
   gap: 24px;
 }
 
-
 .footer-item {
   width: 40px;
   height: 40px;
@@ -450,7 +449,7 @@ button {
 
 .footer-social-link:hover,
 .footer-social-link:focus {
- fill: #404bbf;
+  background-color: #31D0AA;
 }
 
 /*---------PORTFOLIO--------*/
