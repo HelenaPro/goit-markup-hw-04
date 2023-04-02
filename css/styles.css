@@ -249,6 +249,9 @@ button {
   align-items: center;
   justify-content: center;
 }
+.suptitle-item-icon:hover {
+  color: #2E2F42;
+}
 /*---------PROJECTS--------*/
 .work-picture:not(:nth-child(3n)) {
   margin-right: 24px;
