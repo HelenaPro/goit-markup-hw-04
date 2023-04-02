@@ -199,6 +199,9 @@ button {
   background: var(--background-btn-color);
 }
 /*---------FEATURES--------*/
+.features section {
+  padding-bottom: 60px;
+}
 .list-about {
   display: flex;
 }
@@ -239,17 +242,14 @@ button {
   display: flex;
   width: 264px;
   height: 112px;
-  justify-content: center;
-  background-color: #F4F4FD;
-  border-radius: 4px;
-  gap: 24px;
-}
+ }
 .suptitle-item-icon {
-  margin-top: 24px;
-  margin-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 .suptitle-item-icon:hover {
   color: #2E2F42;
