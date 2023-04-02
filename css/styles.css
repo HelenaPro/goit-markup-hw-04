@@ -387,6 +387,11 @@ button {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer-conteiner {
+  display: flex;
+  align-items: baseline;
+}
+}
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -421,14 +426,13 @@ button {
   letter-spacing: 0.02em;
   margin-bottom: 24px;
 }
-.footer-list {
+.footer-soc-list {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 24px;
+  gap: 16px;
 }
 
-.footer-item {
+.footer-soc-item {
   width: 40px;
   height: 40px;
 }
@@ -441,7 +445,7 @@ button {
   align-items: center;
   justify-content: center;
   transition: background-color ;
-  background-color: #434455;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
@@ -449,8 +453,6 @@ button {
 }
 .footer-icon {
   color: #F4F4FD;
-  width: 24px;
-  height: 24px;
 }
 
 /*---------PORTFOLIO--------*/
