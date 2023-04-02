@@ -412,6 +412,8 @@ button {
 }
 
 .social-media {
+  display: flex;
+  justify-content: center;
   width: 208px;
   height: 80px;
   margin-left: 120px;
@@ -443,14 +445,14 @@ button {
   align-items: center;
   justify-content: center;
   transition: background-color ;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #f4f4fd;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31D0AA;
 }
 .footer-icon {
-  color: #F4F4FD;
+  fill: #F4F4FD;
 }
 
 /*---------PORTFOLIO--------*/
