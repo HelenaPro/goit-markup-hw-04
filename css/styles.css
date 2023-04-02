@@ -240,6 +240,7 @@ button {
 }
 .suptitle-item-conteiner {
   display: flex;
+  align-items: center;
   width: 264px;
   height: 112px;
  }
@@ -249,7 +250,7 @@ button {
   justify-content: center;
   background-color: #F4F4FD;
   border-radius: 4px;
-  margin-bottom: 8px;
+  margin-bottom: 24px;
 }
 .suptitle-item-icon:hover {
   color: #2E2F42;
