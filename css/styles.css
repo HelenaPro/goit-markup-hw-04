@@ -339,7 +339,54 @@ button {
 .section-team-icon {
   fill: #ffffff;
 }
-.team-soc-link:hover 
+
+/* CUSTOMERS */
+.costumers {
+  padding: 130px 120px;
+}
+
+.costumers-list {
+  display: flex;
+  gap: 24px;
+  padding: 0px;
+}
+.costumers-header {
+  /* margin-bottom: 72px; */
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.list {
+}
+.customers-link {
+  width: calc((100% - 120px) / 6);
+}
+.link {
+}
+.customers-link-tag {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+  transition: fill 250ms linear;
+}
+.costummers-items {
+}
+
+.customers-link-tag:hover,
+.customers-link-tag:focus {
+  fill: var(--hover-color);
+  border: 1px solid var(--hover-color);
+}
+
 /*---------FOOTER--------*/
 .footer {
   background-color: var(--hero-footer-background-color);
