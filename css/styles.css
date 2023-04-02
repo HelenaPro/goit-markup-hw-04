@@ -309,7 +309,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 .section-team-icon {
   color: #ffffff;
