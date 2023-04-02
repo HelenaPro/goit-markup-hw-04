@@ -351,8 +351,6 @@ button {
   padding: 0px;
 }
 .costumers-header {
-  /* margin-bottom: 72px; */
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -361,12 +359,8 @@ button {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.list {
-}
 .customers-link {
   width: calc((100% - 120px) / 6);
-}
-.link {
 }
 .customers-link-tag {
   border: 1px solid #8e8f99;
