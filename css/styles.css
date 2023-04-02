@@ -235,6 +235,20 @@ button {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+.suptitle-item-conteiner {
+  width: 264px;
+  height: 112px;
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  gap: 24px;
+}
+.suptitle-item-icon {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*---------PROJECTS--------*/
 .work-picture:not(:nth-child(3n)) {
   margin-right: 24px;
