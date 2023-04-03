@@ -421,8 +421,6 @@ button {
 }
 
 .social-media {
-  /*display: block;
-  flex-direction: column;*/
   margin-left: 120px;
   width: 208px;
   height: 80px;
@@ -438,11 +436,13 @@ button {
 }
 .footer-soc-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 16px;
 }
 
 .footer-soc-item {
+  display: flex;
+  justify-content: center;
   width: 40px;
   height: 40px;
 }
