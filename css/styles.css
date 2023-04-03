@@ -241,6 +241,7 @@ button {
 .suptitle-item-conteiner {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 264px;
   height: 112px;
  }
@@ -252,8 +253,10 @@ button {
   border-radius: 4px;
   margin-bottom: 24px;
 }
-.suptitle-item-icon:hover {
-  color: #2E2F42;
+.suptitle-item-icon:hover,
+.suptitle-item-icon:focus {
+  fill:#4D5AE5;
+  border-radius: 4px;;
 }
 /*---------PROJECTS--------*/
 .work-picture:not(:nth-child(3n)) {
@@ -413,11 +416,13 @@ button {
 
 .social-media {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   width: 208px;
   height: 80px;
   margin-left: 120px;
+  margin-top: 100px;
 }
+
 .social-title {
   color: #ffffff;
   font-weight: 500;
@@ -445,7 +450,7 @@ button {
   align-items: center;
   justify-content: center;
   transition: background-color ;
-  background-color: #f4f4fd;
+  background-color: #4D5AE5;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
