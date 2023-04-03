@@ -252,7 +252,7 @@ button {
   justify-content: center;
   background-color: #F4F4FD;
   border-radius: 4px;
-  margin-bottom: 24px;
+  gap: 24px;
 }
 .suptitle-item-icon:hover,
 .suptitle-item-icon:focus {
